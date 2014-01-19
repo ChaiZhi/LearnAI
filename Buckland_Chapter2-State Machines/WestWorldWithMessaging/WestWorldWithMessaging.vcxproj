@@ -45,7 +45,7 @@
     <OutDir>.\Debug\</OutDir>
     <IntDir>.\Debug\</IntDir>
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\cz\Buckland_SourceCode\VS8 projects\Common;$(IncludePath)</IncludePath>
+    <IncludePath>D:\cz\Buckland_SourceCode\LearnAI\Common;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>.\Release\</OutDir>
@@ -128,7 +128,6 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Common\Messaging\MessageDispatcher.cpp" />
     <ClCompile Include="BaseGameEntity.cpp" />
     <ClCompile Include="EntityManager.cpp" />
     <ClCompile Include="main.cpp" />
@@ -137,10 +136,8 @@
     <ClCompile Include="MinerOwnedStates.cpp" />
     <ClCompile Include="MinersWife.cpp" />
     <ClCompile Include="MinersWifeOwnedStates.cpp" />
-    <ClCompile Include="..\..\Common\Time\CrudeTimer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Common\Messaging\MessageDispatcher.h" />
     <ClInclude Include="BaseGameEntity.h" />
     <ClInclude Include="EntityManager.h" />
     <ClInclude Include="EntityNames.h" />
@@ -153,13 +150,6 @@
     <ClInclude Include="MinersWifeOwnedStates.h" />
     <ClInclude Include="..\..\Common\FSM\State.h" />
     <ClInclude Include="..\..\Common\FSM\StateMachine.h" />
-    <ClInclude Include="..\..\Common\Messaging\Telegram.h" />
-    <ClInclude Include="..\..\Common\misc\ConsoleUtils.h" />
-    <ClInclude Include="..\..\Common\ConsoleUtils.h" />
-    <ClInclude Include="..\..\Common\Time\CrudeTimer.h" />
-    <ClInclude Include="..\..\Common\2D\SVector2D.h" />
-    <ClInclude Include="..\..\Common\utils.h" />
-    <ClInclude Include="..\..\Common\misc\utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

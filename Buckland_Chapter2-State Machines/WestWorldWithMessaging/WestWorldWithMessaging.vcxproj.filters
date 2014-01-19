@@ -9,15 +9,9 @@
       <UniqueIdentifier>{388e2d70-72fd-4a22-aa05-7471595c6957}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
-    <Filter Include="misc">
-      <UniqueIdentifier>{8dc27300-f920-4112-8fe4-0a6c7aa56cc2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{2186ad17-df74-4591-82b3-13c0b5776be5}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
-    </Filter>
-    <Filter Include="messaging">
-      <UniqueIdentifier>{4cecfcee-b565-4fee-b111-d84acea669f8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -44,12 +38,6 @@
     </ClCompile>
     <ClCompile Include="MinersWifeOwnedStates.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Common\Time\CrudeTimer.cpp">
-      <Filter>misc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Common\Messaging\MessageDispatcher.cpp">
-      <Filter>messaging</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -88,30 +76,6 @@
     </ClInclude>
     <ClInclude Include="..\..\Common\FSM\StateMachine.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Common\misc\ConsoleUtils.h">
-      <Filter>misc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Common\ConsoleUtils.h">
-      <Filter>misc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Common\Time\CrudeTimer.h">
-      <Filter>misc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Common\2D\SVector2D.h">
-      <Filter>misc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Common\utils.h">
-      <Filter>misc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Common\misc\utils.h">
-      <Filter>misc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Common\Messaging\MessageDispatcher.h">
-      <Filter>messaging</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Common\Messaging\Telegram.h">
-      <Filter>messaging</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
