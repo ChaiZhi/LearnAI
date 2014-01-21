@@ -50,8 +50,8 @@ public:
   }
 
 
-  //returns the current waypoint
-  Vector2D    CurrentWaypoint()const{assert(curWaypoint != NULL); return *curWaypoint;}
+  //returns the current waypoint assert(curWaypoint != NULL);
+  Vector2D    CurrentWaypoint()const{ assert(curWaypoint != m_WayPoints.end()); return *curWaypoint;}
 
   //returns true if the end of the list has been reached
   bool        Finished(){return !(curWaypoint != m_WayPoints.end());}
